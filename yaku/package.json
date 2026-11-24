@@ -1,0 +1,37 @@
+{
+ "name": "yaku",
+ "private": true,
+ "version": "0.1.0",
+ "type": "module",
+ "scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview",
+  "cap:sync": "npm run build && cap sync",
+  "cap:android": "cap open android",
+  "cap:ios": "cap open ios",
+  "assets": "capacitor-assets generate --iconBackgroundColor #FFFFFF --splashBackgroundColor #FFFFFF"
+ },
+ "dependencies": {
+  "@supabase/supabase-js": "^2.45.0",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-router-dom": "^6.26.0",
+  "react-helmet-async": "^2.0.5",
+  "@capacitor/core": "latest",
+  "@capacitor/app": "latest",
+  "@capacitor/status-bar": "latest",
+  "@capacitor/splash-screen": "latest",
+  "@capacitor/android": "latest",
+  "@capacitor/ios": "latest"
+ },
+ "devDependencies": {
+  "@types/react": "^18.3.3",
+  "@types/react-dom": "^18.3.0",
+  "@vitejs/plugin-react": "^4.3.1",
+  "typescript": "^5.5.4",
+  "vite": "^5.4.0",
+  "@capacitor/cli": "latest",
+  "@capacitor/assets": "latest"
+ }
+}

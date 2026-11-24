@@ -1,0 +1,44 @@
+{
+ "name": "YAKU Uganda",
+ "short_name": "YAKU",
+ "description": "Stationery, printing, branding and design marketplace in Uganda.",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FFFFFF",
+ "theme_color": "#26336F",
+ "lang": "en",
+ "categories": [
+  "shopping",
+  "business"
+ ],
+ "icons": [
+  {
+   "src": "/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "YAKU STUDIO",
+   "url": "/studio"
+  },
+  {
+   "name": "Service Providers",
+   "url": "/providers"
+  }
+ ]
+}
